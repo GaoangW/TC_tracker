@@ -15,7 +15,7 @@ result_save_path: the directory of the tracking result. The result follows the U
 Set the parameters in demo.m. <br />
 det_score_thresh: detection score threshold between 0 and 1. <br />
 IOU_thresh: IOU threshold for detection asscociation across frames between 0 and 1. <br />
-color_thresh: color threshold for detection asscociation across frames between 0 and 1. <br />                           
+color_thresh: color threshold for detection asscociation across frames between 0 and 1. <br />
 lambda_time: time interval cost. <br />
 lambda_split: tracklet separation cost. <br />
 lambda_reg: smoothness cost. <br />
