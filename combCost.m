@@ -1,4 +1,4 @@
-function f = combCost(track_set, tracklet_mat, cluster_params)
+function f = combCost(track_set, tracklet_mat, cluster_params, appearance_cost)
 
 N_tracklet = length(track_set);
 track_interval = tracklet_mat.track_interval;
@@ -204,6 +204,9 @@ color_cost = 0;
 if color_flag==1
     max_diff_color = max(diff_mean_color);
     color_cost = sum(max_diff_color);
+end
+if nargin>3
+    color_cost = appearance_cost;
 end
 
 % time cost
