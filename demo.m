@@ -1,3 +1,5 @@
+% Copyright (C)2018, Gaoang Wang, All rights reserved.
+
 close all
 clear
 clc

@@ -1,3 +1,4 @@
+% Copyright (C)2018, Gaoang Wang, All rights reserved.
 function TC_tracker(img_folder,det_path,ROI_path,param,save_path,seq_name,result_save_path,video_save_path)
 
 tic
