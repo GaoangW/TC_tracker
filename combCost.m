@@ -1,5 +1,6 @@
 function f = combCost(track_set, tracklet_mat, cluster_params, appearance_cost)
 
+% make sure you should set the appearance_cost if you use other methods.
 N_tracklet = length(track_set);
 track_interval = tracklet_mat.track_interval;
 [~,sort_idx] = sort(track_interval(track_set,2),'ascend');
