@@ -178,7 +178,7 @@ fr2video([save_path,'\'], [video_save_path,'\',seq_name,'.avi'], 25);
 
 %% write results
 if ~isempty(seq_name)
-    writeTxt(seq_name,result_save_path,result_save_path);
+    writeTxt(seq_name,result_save_path,result_save_path,'MOT');
     file_name = [result_save_path,'\',seq_name,'_Speed.txt'];
     fileID = fopen(file_name,'w');
     fprintf(fileID,'%f',run_speed);
