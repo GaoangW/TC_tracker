@@ -21,3 +21,14 @@ lambda_split: tracklet separation cost. <br />
 lambda_reg: smoothness cost. <br />
 lambda_color: color change cost. <br />
 lambda_grad: velocity change cost. <br />
+# Citation
+Use this bibtex to cite this repository: <br />
+```
+@inproceedings{tang2018single,
+  title={Single-camera and inter-camera vehicle tracking and 3D speed estimation based on fusion of visual and semantic features},
+  author={Tang, Zheng and Wang, Gaoang and Xiao, Hao and Zheng, Aotian and Hwang, Jenq-Neng},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},
+  pages={108--115},
+  year={2018}
+}
+```
